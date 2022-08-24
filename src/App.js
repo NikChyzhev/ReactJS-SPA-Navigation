@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Router>        
-        <Route path='/' exact component={HomePage}/>
+        <Route path='/cursor-homework-mykola-25' exact component={HomePage}/>
         <Route path='/posts' component={Posts}/>
         <Route path='/photos' component={PhotosInsta}/>
         <Route path='/contacts' exact component={Contacts}/>
