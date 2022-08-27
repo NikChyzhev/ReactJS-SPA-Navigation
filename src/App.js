@@ -9,7 +9,7 @@ import Contact from './components/Contact';
 function App() {
   return (
     <div className="App">
-      <Router basename=''>        
+      <Router>        
         <Route path='/ReactJS-SPA-Navigation/' exact component={HomePage}/>
         <Route path='/posts' component={Posts}/>
         <Route path='/photos' component={PhotosInsta}/>
